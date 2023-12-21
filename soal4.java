@@ -16,7 +16,6 @@ public class soal4 {
         akhir=input.nextInt();
         System.out.println("----------------------------------------------");
         for (int i=awal; i<=akhir; i++){
-            //akan tereset setiap saat karena perulangan
             bil=0;
             for (int j=1;j<=i;j++) {
                 if (i % j == 0) {

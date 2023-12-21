@@ -24,7 +24,7 @@ public class soal17 {
                 ketinggian--;
             }
 
-            // Cek apakah berada di puncak gunung (ketinggian kembali ke 0 setelah naik)
+            // Cek apakah berada di puncak gunung
             if (ketinggian == 0 && langkah == 'N') {
                 jumlahGunung++;
             }
@@ -45,7 +45,7 @@ public class soal17 {
                 ketinggian--;
             }
 
-            // Cek apakah berada di lembah (ketinggian kembali ke 0 setelah turun)
+            // Cek apakah berada di lembah
             if (ketinggian == 0 && langkah == 'T') {
                 jumlahLembah++;
             }

@@ -6,7 +6,7 @@ public class soal6 {
 
 
     public static void main(String[] args) {
-        String original, reverse = ""; // Objects of String class
+        String original, reverse = "";
         Scanner in = new Scanner(System.in);
         System.out.println("Masukkan Bilangan !! ");
         original = in.nextLine();

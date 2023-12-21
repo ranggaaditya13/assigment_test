@@ -28,16 +28,13 @@ public class soal11 {
     public static int middle(String str)
     {
         int position;
-        int length;
         if (str.length() % 2 == 0)
         {
             position = str.length() / 2 - 1;
-            length = 2;
         }
         else
         {
             position = str.length() / 2;
-            length = 1;
         }
         return position;
     }
