@@ -3,7 +3,7 @@ package assigment_test;
 import java.util.ArrayList;
 
 public class soalPertama {
-
+        //check
     public static void main(String[] args) {
 
         int uang = 2000, count = 0;
